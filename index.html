@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="navUl">
+            <li><img class="navMenu" src="imgs/Menu.png" alt=""></li>
+            <li><img class="navTitle" src="imgs/Titulo.png" alt=""></li>
+            <li><input class="navInput" type="text" placeholder="Search here"><img class="lupa" src="imgs/Lupa.png"
+                    alt=""></li>
+            <li><img class="navImg engranaje" src="imgs/Engranaje.png" alt=""></li>
+            <div class="navImgs">
+                <li><img class="navImg campana" src="imgs/Campana.png" alt=""></li>
+                <li><img class="navImg mensaje" src="imgs/Mensaje.png" alt=""></li>
+                <li><img class="navImg regalo" src="imgs/Regalo.png" alt=""></li>
+            </div>
+            <li class="perfil"><img class="navImg usuario" src="imgs/Usuario.png" alt=""><span class="User">Felipe</span><img
+                class="flechaPerfil" src="imgs/flecha-abajo.png" alt=""></li>
+        </ul>
+    </nav>
+
+    <div class="dashBoard">
+        Dashboard/
+    </div>
+
+    <div id="mayor0">
+        <div class="container0">
+            <div class="texto0">
+                <h1>Best Selling</h1>
+                <span class="spanWeek">This week<img class="flechaAbajo" src="imgs/flecha-abajo.png" alt=""></span>
+            </div>
+            <div class="barraOscuraTexto">
+                <span class="spanBarraOscura">Tuesday</span>
+                <span class="spanBarraOscura">215,523 pcs</span>
+            </div>
+            <div class="graficas">
+                <img class="imgCircle" src="imgs/grafico-circulo-porcent.png" alt="">
+                <img class="imgBarra" src="imgs/graficaEnBarra.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="mayor">
+        <div id="chart-container">
+            <div class="texto">
+                <h2>Sales Comparison</h2>
+                <h1>94%</h1>
+                <span class="span1">Than last day</span>
+            </div>
+            <canvas id="myChart"></canvas>
+            <div class="flechas">
+                <img class="flechaRight" src="imgs/flecha-izquierda.png" alt="">
+                <img class="flechaLeft" src="imgs/flecha-derecha.png" alt="">
+            </div>
+        </div>
+
+        <h1 class="GalleryTitle">Event Galleries</h1>
+        <div class="slider">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="ContMinies">
+
+        <div class="mayor3">
+            <div id="container3">
+                <div class="texto3">
+                    <h1>456k Pcs</h1>
+                    <span class="spanWeek2">Daily <img class="flechaAbajo" src="imgs/flecha-abajo.png" alt=""></span>
+                    <span class="span3">Ticket Sold</span>
+                    <div class="rangeContainer">
+                        <span class="range"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mayor2">
+            <div id="container2">
+                <div class="texto2">
+                    <h1>451,509</h1>
+                    <span class="spanWeek">This Week <img class="flechaAbajo" src="imgs/flecha-abajo.png" alt=""></span>
+                    <span class="span2">Sales</span>
+                    <span class="message">451k pcs</span>
+                    <div class="lineShadow">
+                        <img class="line" src="imgs/linea-container-2.png" alt="">
+                        <img class="shadow" src="imgs/sombra-linea.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mayor2 displayNone">
+            <div id="container2">
+                <div class="texto2">
+                    <h1>456,623</h1>
+                    <span class="spanWeek">Monthly <img class="flechaAbajo" src="imgs/flecha-abajo.png" alt=""></span>
+                    <span class="span2">Income</span>
+                    <div class="lineShadow">
+                        <img class="linea1" src="imgs/lineaAguaMarina.png" alt="">
+                        <img class="linea2" src="imgs/lineaAmarilla.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="mayor2">
+            <div id="container2">
+                <div class="texto2">
+                    <span class="spanWeek displayNone">This Week <img class="flechaAbajo" src="imgs/flecha-abajo.png" alt=""></span>
+                    <div class="containerCirculo">
+                        <img class="circulo" src="imgs/grafico-circulo.png" alt="">
+                    </div>
+                    <div class="colores">
+                        <span class="cuadros cuadro-1">Ticket A</span>
+                        <span class="cuadros cuadro-2">Ticket B</span>
+                        <span class="cuadros cuadro-3">Ticket C</span>
+                        <span class="cuadros cuadro-4">Ticket D</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>
